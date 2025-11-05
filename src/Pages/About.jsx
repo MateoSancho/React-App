@@ -17,15 +17,11 @@ function About() {
       <h1>About Our Coffee Shop</h1>
       
       <section className="project-description">
-        <h2>☕ Brew & Code Café</h2>
+        <h2>Café Shop</h2>
         <p>
-          Welcome to Brew & Code Café - where great coffee meets great technology. 
+          Welcome to Café Shop - where great coffee meets great people. 
           Our order management system helps our baristas efficiently manage customer orders, 
           track preparation status, and ensure every drink is made to perfection.
-        </p>
-        <p>
-          This React application features real-time order tracking, priority management, 
-          and a seamless experience for both our team and customers.
         </p>
       </section>
 
@@ -37,8 +33,6 @@ function About() {
               <h3>{member.name}</h3>
               <p className="role">{member.role}</p>
               <p className="bio">{member.bio}</p>
-              <div className="social-links">
-              </div>
             </div>
           ))}
         </div>

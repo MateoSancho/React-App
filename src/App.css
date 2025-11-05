@@ -13,8 +13,9 @@
 
 /* Navbar Styles */
 .navbar {
-  background-color: #2c3e50;
-  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #00000034;
+  color: rgb(255, 253, 250);
   padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -44,7 +45,8 @@
 /* Sidebar Styles */
 .sidebar {
   width: 200px;
-  background-color: #34495e;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #025b0b34;
   padding: 2rem 1rem;
 }
 
@@ -57,7 +59,7 @@
 }
 
 .sidebar-nav a {
-  color: white;
+  color: rgb(240, 240, 240);
   text-decoration: none;
   padding: 0.5rem 1rem;
   display: block;
@@ -66,29 +68,29 @@
 }
 
 .sidebar-nav a:hover {
-  background-color: #4a6278;
+  background-color: #0d983e;
 }
 
 /* Content Area */
 .content {
   flex: 1;
   padding: 2rem;
-  background-color: #ecf0f1;
+  background-image: url("./assets/Background.png");
 }
 
 .content h1 {
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
 .content p {
-  color: #7f8c8d;
+  color: #004b00;
   line-height: 1.6;
 }
 
 /* Footer Styles */
 .footer {
-  background-color: #2c3e50;
+  background-color: #000900;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -110,7 +112,7 @@
 }
 
 .list-header {
-  background-color: white;
+  background-color: rgb(252, 252, 252);
   padding: 1.5rem;
   border-radius: 8px;
   margin-bottom: 1rem;
@@ -118,12 +120,12 @@
 }
 
 .list-header h2 {
-  color: #2c3e50;
+  color: #004b00;
   margin-bottom: 0.5rem;
 }
 
 .list-header p {
-  color: #7f8c8d;
+  color: #004b00;
   font-weight: 500;
 }
 
@@ -184,12 +186,12 @@
 
 .priority-level {
   background-color: #e3f2fd;
-  color: #1976d2;
+  color: #1260af;
 }
 
 /* Delete Button */
 .delete-btn {
-  background-color: #e74c3c;
+  background-color: #900e00;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -200,7 +202,7 @@
 }
 
 .delete-btn:hover {
-  background-color: #c0392b;
+  background-color: #821003;
 }
 
 /* Empty State */
@@ -240,7 +242,7 @@
 .back-btn {
   background: none;
   border: none;
-  color: #3498db;
+  color: #0b75bc;
   cursor: pointer;
   font-size: 1rem;
   margin-bottom: 1rem;
@@ -321,16 +323,17 @@
   padding: 2rem;
   border-radius: 8px;
   margin-bottom: 2rem;
+  margin-top:20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .project-description h2 {
-  color: #2c3e50;
+  color: #003908;
   margin-bottom: 1rem;
 }
 
 .team-section h2 {
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 1.5rem;
 }
 
@@ -349,40 +352,20 @@
 }
 
 .team-card h3 {
-  color: #2c3e50;
+  color: #004b00;
   margin-bottom: 0.5rem;
 }
 
 .team-card .role {
-  color: #3498db;
+  color: #004b00;
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
 .team-card .bio {
-  color: #7f8c8d;
+  color: #004b00;
   margin-bottom: 1.5rem;
   line-height: 1.5;
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.social-links a {
-  color: #3498db;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border: 1px solid #3498db;
-  border-radius: 4px;
-  transition: all 0.3s;
-}
-
-.social-links a:hover {
-  background: #3498db;
-  color: white;
 }
 
 /* Not Found Page */
@@ -669,9 +652,6 @@
   margin-bottom: 0.5rem;
 }
 
-.dashboard-header p {
-  color: #7f8c8d;
-}
 
 /* Responsive design */
 @media (max-width: 768px) {

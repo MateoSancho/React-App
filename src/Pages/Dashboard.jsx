@@ -57,8 +57,7 @@ function Dashboard() {
     <div className="page-content">
       <div className="dashboard-header">
         <div>
-          <h1>☕ Coffee Shop Dashboard</h1>
-          <p>Manage coffee orders and track preparation status</p>
+          <h1>Coffee Shop Dashboard</h1>
           <div className="order-stats">
             <span className="stat pending">Pending: {pendingOrders}</span>
             <span className="stat completed">Completed: {completedOrders}</span>
@@ -67,7 +66,7 @@ function Dashboard() {
         </div>
         {items.length > 0 && (
           <button className="secondary-btn" onClick={clearAllOrders}>
-            Reset to Sample Orders
+            Reset Orders
           </button>
         )}
       </div>
